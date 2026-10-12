@@ -1,4 +1,4 @@
-10.12 10:25 PM
+
 Project_Documentation.md
 # Student Performance Analytics System - Assessment Documentation
 
@@ -40,5 +40,5 @@ The project successfully processes the raw CSV file and outputs a clean, readabl
 A key challenge was applying the rule that a student failing a single subject must receive an overall "F" grade, regardless of their average. This was solved by separating the Pass/Fail check using NumPy vectorization before passing the boolean result into the grade assignment loop. The project reinforced the value of modular programming by separating calculations (`functions.py`) from the execution script (`main.py`).
 
 **10. GitHub Repository**
-*(Insert your final GitHub repository link here).*
+*https://github.com/maheshjanjiralashiva-blip/Student-performance-analytics.*
 
