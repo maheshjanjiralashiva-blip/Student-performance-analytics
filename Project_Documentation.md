@@ -42,7 +42,9 @@ The dataset (`students.csv`) contains 20 records of simulated student data. Key 
 The project successfully processes the raw CSV file and outputs a clean, readable command-line report. It provides actionable insights, such as identifying the weakest subject across the class, listing students who require attendance warnings, and ranking the top 3 students by average marks.
 
 **9. Challenges & Learning**
-A key challenge was applying the rule that a student failing a single subject must receive an overall "F" grade, regardless of their average. This was solved by separating the Pass/Fail check using NumPy vectorization before passing the boolean result into the grade assignment loop. The project reinforced the value of modular programming by separating calculations (`functions.py`) from the execution script (`main.py`).
+The most challenging part of the project was writing and organizing the logic in the Python code, especially handling the numerical calculations and data processing. To overcome this, I leveraged AI tools to debug errors, understand the required logic, and figure out the right syntax step-by-step. Through this process, I learned how to effectively utilize AI as a technical guide to write cleaner code and solve complex programming challenges.
+
+ The project reinforced the value of modular programming by separating calculations (`functions.py`) from the execution script (`main.py`).
 
 **10. GitHub Repository**
 *https://github.com/maheshjanjiralashiva-blip/Student-performance-analytics.*
