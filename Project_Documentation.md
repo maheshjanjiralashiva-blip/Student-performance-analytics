@@ -31,7 +31,12 @@ The dataset (`students.csv`) contains 20 records of simulated student data. Key 
 * Low attendance identification module.
 
 **7. Output/Screenshots**
-*(Note: Please insert the screenshots of your Colab output terminal here before pushing to GitHub).*
+![Class summary](Screenshot_2026_1014_082228.png)
+
+![Subject-wise table](Screenshot_2026_1014_082510.png)
+
+![Top 3 performers](Screenshot_2026_1014_082605.jpg)
+
 
 **8. Final Outcome**
 The project successfully processes the raw CSV file and outputs a clean, readable command-line report. It provides actionable insights, such as identifying the weakest subject across the class, listing students who require attendance warnings, and ranking the top students by total marks.
