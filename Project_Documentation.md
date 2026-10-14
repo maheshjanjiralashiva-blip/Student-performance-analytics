@@ -39,7 +39,7 @@ The dataset (`students.csv`) contains 20 records of simulated student data. Key 
 
 
 **8. Final Outcome**
-The project successfully processes the raw CSV file and outputs a clean, readable command-line report. It provides actionable insights, such as identifying the weakest subject across the class, listing students who require attendance warnings, and ranking the top students by total marks.
+The project successfully processes the raw CSV file and outputs a clean, readable command-line report. It provides actionable insights, such as identifying the weakest subject across the class, listing students who require attendance warnings, and ranking the top 3 students by average marks.
 
 **9. Challenges & Learning**
 A key challenge was applying the rule that a student failing a single subject must receive an overall "F" grade, regardless of their average. This was solved by separating the Pass/Fail check using NumPy vectorization before passing the boolean result into the grade assignment loop. The project reinforced the value of modular programming by separating calculations (`functions.py`) from the execution script (`main.py`).
